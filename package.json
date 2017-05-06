@@ -1,0 +1,30 @@
+{
+  "name": "widgets",
+  "version": "1.0.0",
+  "description": "Widgets",
+  "main": "widgets.jsx",
+  "scripts": {
+    "test": "none",
+    "webpack": "webpack -w",
+    "start": "webpack-dev-server --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "david and mark",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.4.5"
+  }
+}

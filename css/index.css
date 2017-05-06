@@ -1,0 +1,56 @@
+body {
+  font-family: 'Bonbon', cursive;
+  font-size: 40px;
+  margin-left: 20px;
+  background-color: lime;
+}
+div#root {
+  display: flex;
+  justify-content: center;
+  margin-top:  100px;
+}
+
+div div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  border: 10px solid pink;
+  background-color: yellow;
+  color: orange;
+  margin-bottom: 50px;
+
+}
+ul{
+  margin: 5px;
+}
+
+div.auto-complete {
+  flex-direction: column;
+}
+
+li {
+  padding: 10px;
+}
+
+li:hover {
+  cursor: pointer;
+  
+}
+
+input {
+  font-size: 40px;
+  font-family: 'Bonbon', cursive;
+  background-color: black;
+  color: magenta;
+
+}
+
+div.weather {
+  display: flex;
+  justify-content: center;
+
+}
+div div div:hover {
+  background-color: red;
+}
