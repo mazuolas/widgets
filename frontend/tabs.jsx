@@ -24,7 +24,6 @@ class Tabs extends React.Component{
     let selectedTab = e.target.id;
 
     this.setState( {selectedTab});
-    console.log(this.state);
   }
 
 
@@ -32,7 +31,7 @@ class Tabs extends React.Component{
   render(){
 
     return (
-      <div>
+      <div className="tabs">
         <ul onClick={this.updateContent.bind(this)}>
           {this.tabNames()}
         </ul>
